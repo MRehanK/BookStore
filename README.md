@@ -101,6 +101,6 @@ To run this project locally, follow these steps:
 
 Contributions are welcome! If you have suggestions for improving this application, please fork the repository and submit a pull request.
 
-## Tests
+## IMG
 
-Currently, there are no tests included in this project. Future iterations may include unit and integration tests for the frontend and backend.
+![image](https://github.com/user-attachments/assets/0aedca29-be24-4b61-9b92-1a43ef0240e9)
