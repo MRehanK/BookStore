@@ -11,9 +11,10 @@ function Banner() {
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-sm md:text-xl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              et totam. Tempora amet atque expedita, quae corrupti totam sed
-              pariatur corporis at veniam est voluptas animi!
+            Welcome to your one-stop destination for exploring new knowledge every day! 
+            Dive into our wide range of courses designed to inspire creativity, enhance 
+            skills, and spark curiosity. Whether you're looking to pick up a new hobby 
+            or advance your career, we’ve got you covered with engaging content and expert guidance.
             </p>
             <label className="input input-bordered flex items-center gap-2">
               <svg
@@ -36,6 +37,41 @@ function Banner() {
             className="md:w-[550px] md:h-[460px] md:ml-12"
             alt=""
           />
+        </div>
+      </div>
+
+      <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
+        <div>
+          <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
+          <p>
+            Discover a variety of free courses designed to fuel your passion for learning and personal 
+            growth. Whether you're interested in exploring creative arts, mastering new technologies, 
+            or diving into professional development, our free offerings provide high-quality content to 
+            get you started on your journey. Enroll today and unlock your potential without any cost!
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+          {[1, 2, 3].map((_, index) => (
+            <div key={index} className="card w-92 bg-base-100 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
+              <figure>
+                <img src={banner} alt="Book" className="w-full h-48 object-cover" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">
+                  Book {index + 1}
+                  <div className="badge badge-secondary">Free</div>
+                </h2>
+                <p>Learn more about this amazing free course.</p>
+                <div className="card-actions justify-between">
+                  <div className="badge badge-outline">$0</div>
+                  <div className=" cursor-pointer px-2 py-1 rounded-full border-[2px] hover:bg-pink-500 hover:text-white duration-200">
+                    Buy Now
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </>
