@@ -18,8 +18,7 @@ const URI = process.env.MongoDBURI;
 
 // connect to mongoDB
 try {
-    mongoose.connect('mongodb://localhost:27017/<database>');
-
+    mongoose.connect(URI);
     console.log("Connected to mongoDB");
 } catch (error) {
     console.log("Error: ", error);
