@@ -78,8 +78,8 @@ To run this project locally, follow these steps:
 
 ### Screenshots
 
-![Homepage](assets/images/homepage.png)
-![Books Section](assets/images/books-section.png)
+![image](https://github.com/user-attachments/assets/0aedca29-be24-4b61-9b92-1a43ef0240e9)
+![image](https://github.com/user-attachments/assets/ae8efcf2-b1d0-4a52-8a38-415311ae3ddd)
 
 ## Credits
 
@@ -101,7 +101,4 @@ To run this project locally, follow these steps:
 
 Contributions are welcome! If you have suggestions for improving this application, please fork the repository and submit a pull request.
 
-## IMG
 
-![image](https://github.com/user-attachments/assets/0aedca29-be24-4b61-9b92-1a43ef0240e9)
-![image](https://github.com/user-attachments/assets/ae8efcf2-b1d0-4a52-8a38-415311ae3ddd)
